@@ -4,12 +4,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.VBox;
 import sample.com.snappyapps.model.Model;
 
 public class MainController {
 
     @FXML
     private Label result;
+    @FXML
+    private VBox vBox;
     private long number1 = 0;
     private String operator = "";
     private boolean start = true;
